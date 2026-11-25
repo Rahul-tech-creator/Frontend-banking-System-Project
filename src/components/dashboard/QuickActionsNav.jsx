@@ -10,9 +10,12 @@ import {
   FileSpreadsheet
 } from 'lucide-react';
 
+
+
 export default function QuickActionsNav() {
   const { activeTab, setActiveTab, loans, recurringPayments } = useBank();
 
+  
   const tabs = [
     { id: 'deposit', label: 'Deposit Money', icon: <ArrowDownToLine size={16} /> },
     { id: 'transfer', label: 'Fund Transfer', icon: <SendHorizontal size={16} /> },

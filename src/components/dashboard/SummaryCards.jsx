@@ -18,6 +18,7 @@ export default function SummaryCards() {
       iconBg: 'var(--primary-light)',
       borderColor: 'var(--primary)'
     },
+    
     {
       id: 'credits',
       label: 'Monthly Inflow',

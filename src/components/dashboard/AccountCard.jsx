@@ -9,7 +9,9 @@ import {
   Wifi,
   Sliders,
   Lock,
+
   RotateCw,
+  
   Eye,
   EyeOff
 } from 'lucide-react';
@@ -22,7 +24,7 @@ export default function AccountCard() {
     preselectAccountForAction,
     setCardModalAccount,
     addToast
-    
+
   } = useBank();
 
   const [copiedKey, setCopiedKey] = useState(null);
