@@ -13,7 +13,9 @@ export default function App() {
 
   return (
     <>
+
       {isLoggedIn ? <DashboardPage /> : <LoginPage />}
+      
 
       {/* Global Overlays & Modals */}
       <ToastContainer />
